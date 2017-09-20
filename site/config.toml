@@ -1,0 +1,31 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "Manilatech"
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details:
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+#disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+    description = "Changing Manila, one tech at a time.\nWe love technology technology and we want to make it work for you.We want to help you.Let's talk. No rush. We will keep it simple. One tech at a time."
+    logo = "/images/manilatech-logo.png"
+    cover = "/images/manilatech-cover.jpg"
+
+[permalinks]
+    pages = "/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    weight = 1
+    url = "/"
+[[menu.main]]
+    name = "About Us"
+    weight = 2
+    url = "/about-us/"
+[[menu.main]]
+    name = "Contact Us"
+    weight = 3
+    url = "/contact-us/"

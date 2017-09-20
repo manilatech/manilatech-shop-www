@@ -1,0 +1,58 @@
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport"              content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+    {{ with .Title | default .Site.Title }}
+    <title>{{ . }}</title>
+    {{ end }}
+    {{ with .Description | default .Site.Params.description }}
+    <meta name="description" content="{{ . }}">
+    {{ end }}
+
+    <link rel="stylesheet" href="/css/flickity.min.css" />
+    <link rel="stylesheet" href="/css/bulma.min.css"    />
+    <link rel="stylesheet" href="/css/main.css"         />
+    
+    <link rel="stylesheet" href="/fonts/Monk.css"       />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500" />
+    <link rel="canonical"  href="{{ .Site.BaseURL }}" />
+    <link rel="alternate"  href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+
+    <!-- Open Graph -->
+    <meta property="og:site_name"    content="{{ .Site.Title }}" />
+    <meta property="og:url"          content="{{ .Permalink }}" />
+    {{ if .IsPage }}
+    <meta property="og:type"         content="article" />
+    {{ else }}
+    <meta property="og:type"         content="business.business" />
+    {{ end }}
+    {{ with .Title | default .Site.Title }}
+    <meta property="og:title"        content="{{ . }}" />
+    {{ end }}
+    {{ with .Params.image | default .Site.Params.logo }}
+    <meta property="og:image"        content="{{ . | absURL }}" />
+    {{ end }}
+    {{ with .Description | default .Site.Params.description }}
+    <meta property="og:description"  content="{{ . }}" />
+    {{ end }}
+
+    <!-- Twitter -->
+    {{ with .Title | default .Site.Title }}
+    <meta name="twitter:title"       content="{{ . }}" />
+    {{ end }}
+    {{ with .Description | default .Site.Params.description }}
+    <meta name="twitter:description" content="{{ . | truncate 200 }}" />
+    {{ end }}
+    {{ with .Params.image | default .Site.Params.logo }}
+    <meta name="twitter:image"       content="{{ . | absURL }}" />
+    {{ end }}
+    <meta name="twitter:card"        content="summary" />
+    {{ with .Site.Params.twitter }}
+    <meta name="twitter:site"        content="@{{ . }}" />
+    <meta name="twitter:creator"     content="@{{ .}}" />
+    {{ end }}
+
+    <!-- Favicons -->
+</head>

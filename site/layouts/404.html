@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        <meta charset="utf-8">
+        <title>Page not found &middot; {{ $.Site.Title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="/css/tachyons.min.css"/>
+        <link rel="shortcut icon"              href="/favicon.ico"/>
+        <style type="text/css">
+            .bg-1 {
+                background-color: #caccd3;
+            }
+            .bs-4-10 {
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            }
+            .blue-1 {
+                color: #1951fc;
+            }
+            .fbig {
+                font-size: 10rem;
+            }
+        </style>
+    </head>
+    <body class="vh-100 w-100 dt sans-serif bg-1 pa3">
+        <div class="dtc v-mid">
+            <div class="center mw6 mw7-l pa3 pa5-ns bs-4-10 bg-white br4">
+                <div class="cf">
+                    <div class="fl w-100 w-50-l pa2 tc">
+                        <img class="dib ma0 pa0" src="/images/frankenstein.png" />
+                    </div>
+                    <div class="fl w-100 w-50-l pa2">
+                        <h1 class="f-headline lh-solid mb3 mt0 dark-red tc-m tc-s">Oops!</h1>
+                        <h2 class="f4 lh-copy ttu mb0 tc-m tc-s">Looks Like You are lost</h2>
+                        <p class="f5 lh-copy black-70 mb5 mt2 tc-s tc-m">The page you are looking for not available</p>
+                        <h3 class="f4 lh-copy mt0 mb0 tc-s tc-m"><a class="link no-underline ttu blue-1" href="/">Take me to homepage</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

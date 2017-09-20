@@ -1,0 +1,11 @@
+<div class="column is-one-third-desktop is-half-tablet is-one-quarter-phone post-item">
+    <a class="post-item-link has-no-bottom-border" href="{{ .Permalink }}">
+        {{ if isset .Params "images" }}
+            {{ range first 1 .Params.images }}
+        <p><img src="{{ .thumbnail }}" /></p>
+            {{ end }}
+        {{ end }}
+        <h1>{{ .Title }}</h1>
+        <h2>{{ .Params.short_subtitle }}</h2>
+    </a>
+</div>

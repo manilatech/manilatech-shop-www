@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode }}">
+    {{ partial "head" . }}
+    <body class="post-template">
+        {{ partial "body-header" . }}
+        <section class="section site-content">
+            <div class="container">
+                <div class="columns is-desktop is-multiline">
+                    <div class="column is-two-thirds has-text-centered has-text-left-desktop">
+                        <div class="post post-item">
+                            <h1 class="title is-4 has-text-weight-normal">{{ .Title }}</h1>
+                            <h2 class="subtitle is-6" style="color:darkgray;padding-top:4px;padding-bottom:8px">{{ .Params.subtitle }}</h2>
+
+                            <div class="product-carousel">
+                            {{ range .Params.images }}
+                                <div data-flickity-bg-lazyload="{{ .image | absURL }}" class="carousel-cell"></div>
+                            {{ end }}
+                            </div>
+                            <br />
+                            <br />
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h1 class="title is-3 has-text-weight-normal"><span class="currency_symbol">P</span>{{ .Params.price }}</h1>
+                        <hr />
+                        <div class="content product-detail-content" id="product-content">
+                            {{ .Content }}
+                        </div>
+                        <br /><br />
+                        <div class="has-text-centered">
+                            <a href="https://manilatech.cartloom.com/cart/add/142767" 
+                                class="button is-success is-medium cartloom-addtocart"
+                                style="width:100%;background-color:#79A04B">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{ partial "body-footer" . }}
+    </body>
+</html>

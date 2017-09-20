@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode }}">
+    {{ partial "head" . }}
+    <body class="home-template">
+        {{ partial "body-header" . }}
+        <section class="section site-content">
+            <div class="container">
+                <div id="posts" class="columns is-mobile is-multiline is-gapless">
+                {{ range where .Data.Pages "Type" "product" }}
+                    {{ partial "product-items.html" . }}
+                {{ end }}
+                </div>
+            </div>
+        </section>
+        {{ partial "body-footer" . }}
+    </body>
+</html>

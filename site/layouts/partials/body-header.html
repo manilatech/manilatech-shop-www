@@ -1,0 +1,67 @@
+<header class="site-header">
+    <nav class="navbar is-show-phone">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="{{ .Site.BaseURL }}">
+            {{ if .Site.Params.logo }}
+                <figure class="image" style="width:70%"><img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}" /></figure>
+            {{ else }}
+                {{ .Site.Title }}
+            {{ end }}
+            </a>
+            <div class="navbar-burger" data-target="main-navbar-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div id="main-navbar-menu" class="navbar-menu">
+            <div class="navbar-end" id="main-navbar-end">
+                <a href="javascript:void(0)" class="navbar-item cartloom-viewcart">View Cart &nbsp;<span class="tag is-success cartloom-cart-count">0</span></a>
+            </div>
+        </div>
+    </nav>
+    <section class="section site-header-title is-hide-phone">
+        <div class="columns is-mobile">
+            <div class="column">&nbsp;</div>
+            <div class="column is-narrow">
+                <a class="blog-logo" href="{{ .Site.BaseURL }}">
+                {{ if .Site.Params.logo }}
+                    <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}" />
+                {{ else }}
+                    <h1 class="title">{{ .Site.Title }}</h1>
+                {{ end }}
+                </a>
+            </div>
+            <div class="column">
+                <div class="has-text-right" style="padding-right:16px;padding-top:4px;">
+                    <a class="" href="https://www.facebook.com/manilatech.net"><figure class="image is-24x24" style="display:inline-block"><img src="/images/flat_facebook.png"/></figure></a>&nbsp;
+                    <a class="" href="https://www.twitter.com/manilatech"><figure class="image is-24x24" style="display:inline-block"><img src="/images/flat_twitter.png"/></figure></a>&nbsp;
+                    <a class="" href="https://www.instagram.com/manilatech"><figure class="image is-24x24" style="display:inline-block"><img src="/images/flat_instagram.png"/></figure></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav class="site-header-navigation is-hide-phone">
+        <div class="tabs is-centered is-medium">
+            <ul>
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                <li class="{{ if eq $currentPage.RelPermalink .URL }}is-active{{ end }}">
+                    <a class="navigation-navbar-item" href="{{ .URL }}">{{ .Name }}</a>
+                </li>
+                {{ end }}
+                <li><a href="javascript:void(0)" class="cartloom-viewcart">View Cart &nbsp;<span class="tag is-success cartloom-cart-count">0</span></a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section class="hero site-header-cover-carousel">
+        <!--<img class="object-fit_cover is-height-100" src="{{ . | absURL }}" />-->
+        {{ range (where $.Site.Pages "Section" "carousel").ByDate }}
+            {{ if .Params.image }}
+        <div class="carousel-cell" data-flickity-bg-lazyload="{{ .Params.image }}"></div>
+            {{ end }}
+        {{ end }}
+    </section>
+    
+</header>
