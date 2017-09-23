@@ -1,40 +1,40 @@
 backend:
-  name: github
-  repo: manilatech/manilatech-shop-www
-  branch: master
+    name: github
+    repo: manilatech/manilatech-shop-www
+    branch: master
 
 media_folder: "site/static/images"
 public_folder: "images"
 
 collections: # A list of collections the CMS should be able to edit
     - name: "blog"
-        label: "Blog"
-        folder: "site/content/blog"
-        create: true
-        fields:
-            - {label: "Title",        name: "title", widget: "string"}
-            - {label: "Publish Date", name: "date",  widget: "datetime"}
-            - {label: "Body",         name: "body",  widget: "markdown"}
+      label: "Blog"
+      folder: "site/content/blog"
+      create: true
+      fields:
+        - {label: "Title",        name: "title", widget: "string"}
+        - {label: "Publish Date", name: "date",  widget: "datetime"}
+        - {label: "Body",         name: "body",  widget: "markdown"}
     - name: "pages"
-        label: "Pages"
-        folder: "site/content/pages"
-        create: true
-        fields:
-            - {label: "Title",        name: "title", widget: "string"}
-            - {label: "Slug",         name: "slug",  widget: "string"}
-            - {label: "Publish Date", name: "date",  widget: "datetime"}
-            - {label: "Body",         name: "body",  widget: "markdown"}
+      label: "Pages"
+      folder: "site/content/pages"
+      create: true
+      fields:
+        - {label: "Title",        name: "title", widget: "string"}
+        - {label: "Slug",         name: "slug",  widget: "string"}
+        - {label: "Publish Date", name: "date",  widget: "datetime"}
+        - {label: "Body",         name: "body",  widget: "markdown"}
     - name: "product"
-        label: "Products"
-        folder: "site/content/product"
-        create: true
-        fields:
-            - {label: "Title",               name: "title",          widget: "string"}
-            - {label: "Body",                name: "body",           widget: "markdown"}
-            - {label: "Images",              name: "images",         widget: "list", fields: [{label: Image, name: image, widget: image},{label: Thumbnail, name: thumbnail, widget: image}]}
-            - {label: "Cartloom Product Id", name: "cartloom_pid",   widget: "string"}
-            - {label: "Short Subtitle",      name: "short_subtitle", widget: "string"}
-            - {label: "Subtitle",            name: "subtitle",       widget: "string"}
-            - {label: "Slug",                name: "slug",           widget: "string"}
-            - {label: "Price",               name: "price",          widget: "string"}
-            - {label: "Publish Date",        name: "date",           widget: "datetime"}
+      label: "Products"
+      folder: "site/content/product"
+      create: true
+      fields:
+        - {label: "Title",               name: "title",          widget: "string"}
+        - {label: "Body",                name: "body",           widget: "markdown"}
+        - {label: "Images",              name: "images",         widget: "list", fields: [{label: Image, name: image, widget: image},{label: Thumbnail, name: thumbnail, widget: image}]}
+        - {label: "Cartloom Product Id", name: "cartloom_pid",   widget: "string"}
+        - {label: "Short Subtitle",      name: "short_subtitle", widget: "string"}
+        - {label: "Subtitle",            name: "subtitle",       widget: "string"}
+        - {label: "Slug",                name: "slug",           widget: "string"}
+        - {label: "Price",               name: "price",          widget: "string"}
+        - {label: "Publish Date",        name: "date",           widget: "datetime"}

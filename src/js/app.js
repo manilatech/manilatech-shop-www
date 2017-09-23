@@ -95,18 +95,22 @@
     }
 
     function onCoverCarousel() {
-        var flkty = new Flickity('.site-header-cover-carousel', {
-            bgLazyLoad: true,
-            autoPlay: true,
-            prevNextButtons: false
-        });
+        var elemSHCC = document.querySelector('.site-header-cover-carousel');
+        if (elemSHCC) {
+            var flkty = new Flickity(elemSHCC, {
+                bgLazyLoad: true,
+                autoPlay: true,
+                prevNextButtons: false
+            });
+        }
     }
 
     function onProductsCarousel() {
         var elemP = document.querySelector('.product-carousel');
         if (elemP) {
             var flktyP = new Flickity(elemP, {
-                bgLazyLoad: true
+                bgLazyLoad: true,
+                autoPlay: false
             });
         }
     }
