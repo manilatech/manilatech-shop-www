@@ -1,4 +1,5 @@
-baseurl = "/"
+#baseurl = "/"
+baseURL = "https://www.manilatech.net/"
 languageCode = "en-us"
 languageLang = "en"
 title = "Manilatech"
@@ -10,6 +11,10 @@ title = "Manilatech"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
+    twitter = "manilatech.net"
+    facebook = "manilatech"
+    instagram = "manilatech"
+    ga_api_key = "UA-11521088-3"
     description = "Changing Manila, one tech at a time.\nWe love technology technology and we want to make it work for you.We want to help you.Let's talk. No rush. We will keep it simple. One tech at a time."
     logo = "/images/manilatech-logo.png"
     cover = "/images/manilatech-cover.jpg"

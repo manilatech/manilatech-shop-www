@@ -115,6 +115,12 @@ body {
 .site-footer-partners a.height0 {
     height: 100%;
 }
+.site-footer-partners a.height20 {
+    height: 20%;
+}
+.site-footer-partners a.height30 {
+    height: 30%;
+}
 .site-footer-partners a.height40 {
     height: 40%;
 }

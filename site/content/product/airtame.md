@@ -5,7 +5,7 @@ subtitle: Enterprise grade wireless HDMI device for TVs and projectors
 cartloom_pid: 144139
 slug: airtame
 price: "16,999.00"
-date: 2017-04-04T15:04:10.000Z
+date: 2017-03-06T15:04:10.000Z
 images:
     - image: /images/product/144139_cc278f2089f2156371345ec1554b6d70_orig.jpg
       thumbnail: /images/product/144139_cc278f2089f2156371345ec1554b6d70_thumb.jpg

@@ -4,7 +4,7 @@ short_subtitle: Mesh Networking for Seamless Wi-Fi
 subtitle: Smart Home Wi-Fi System that setup in minutes with Touchscreen
 cartloom_pid: 143998
 slug: almond-3-bundle
-price: "23,000.00"
+price: "28,000.00"
 date: 2017-03-04T15:04:10.000Z
 images:
     - image: /images/product/143998_03920e3d3cd6b8c47b51cf156e64cb3a_orig.jpg

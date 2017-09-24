@@ -4,8 +4,8 @@ short_subtitle: Setup in Minutes with Touchscreen
 subtitle: Smart Home Wi-Fi System that setup in minutes with Touchscreen
 cartloom_pid: 142767
 slug: almond-3-white-solo
-price: "9,789.00"
-date: 2017-03-04T15:04:10.000Z
+price: "10,500.00"
+date: 2017-03-05T15:04:10.000Z
 images:
     - image: /images/product/142767_06609d4738cd5f61d89de1b16764151d_orig.jpg
       thumbnail: /images/product/142767_06609d4738cd5f61d89de1b16764151d_thumb.jpg

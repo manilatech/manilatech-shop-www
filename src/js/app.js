@@ -122,8 +122,8 @@
                 target: '.product-detail-content',
                 numofWords: 30,
                 toggle: true,
-                moreLink: 'READ MORE',
-                lessLink: 'READ LESS'
+                moreLink: '<span class="tag is-info">READ MORE</span>',
+                lessLink: '<span class="tag is-dark">READ LESS</span>'
             });
         }
     }
