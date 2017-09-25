@@ -180,7 +180,7 @@ body {
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: #fff;
+    background-color: transparent;
 }
 .site-content .flickity-page-dots .dot {
     width: 24px;
