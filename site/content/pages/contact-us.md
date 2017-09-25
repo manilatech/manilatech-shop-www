@@ -15,7 +15,7 @@ If you have questions about our products and services or have something cool in 
         <div class="field-body">        
             <div class="field">
                 <div class="control">
-                    <input class="input is-medium is-shadow-0" type="text" name="name" placeholder="Your Name, Please">
+                    <input class="input is-medium is-shadow-0" type="text" name="name" placeholder="Name, Please">
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@ If you have questions about our products and services or have something cool in 
         <div class="field-body">        
             <div class="field">
                 <div class="control">
-                    <input class="input is-medium is-shadow-0" type="text" name="contact_number" placeholder="Your Contact Number, Please">
+                    <input class="input is-medium is-shadow-0" type="text" name="contact_number" placeholder="Contact Number, Please">
                 </div>
             </div>
         </div>
@@ -39,7 +39,7 @@ If you have questions about our products and services or have something cool in 
         <div class="field-body">        
             <div class="field">
                 <div class="control">
-                    <input class="input is-medium is-shadow-0" type="email" name="_replyto" placeholder="Your Email, Please">
+                    <input class="input is-medium is-shadow-0" type="email" name="_replyto" placeholder="Email, Please">
                 </div>
             </div>
         </div>
