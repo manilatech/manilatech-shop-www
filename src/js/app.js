@@ -123,7 +123,7 @@
                 numofWords: 30,
                 toggle: true,
                 moreLink: '<span class="tag is-info">READ MORE</span>',
-                lessLink: '<span class="tag is-dark">READ LESS</span>'
+                lessLink: ''
             });
         }
     }

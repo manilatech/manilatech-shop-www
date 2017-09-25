@@ -49,10 +49,8 @@ Dual-band gigabit AC Wi-Fi.
 
 Connect up to 50 users at a time and forget patchy network by using dual band 5.0 GHz and 2.4 Ghz Wi-Fi.
 
-Learn more about the Almond 3 [here](https://www.securifi.com/rg/almond3)
-Datasheet [here](https://d1ps2o5uupey1c.cloudfront.net/wp-content/uploads/almond3-datasheet-v2.pdf)
-Read the quick-start guide [here](https://firmware.securifi.com/AL1/AlmondQuickGuide.pdf)
+**Learn more about:**
 
-We accept credit and debit cards. Just choose Paypal during checkout.
-
-[alt](/images/cc-badges-ppcmcvdam.png)
+- [Almond 3](https://www.securifi.com/rg/almond3)
+- [Datasheet](https://d1ps2o5uupey1c.cloudfront.net/wp-content/uploads/almond3-datasheet-v2.pdf)
+- [Read the quick-start guide](https://firmware.securifi.com/AL1/AlmondQuickGuide.pdf)
