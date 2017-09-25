@@ -3,38 +3,49 @@ title: "Let's talk and make something awesome together"
 slug: contact-us
 date: 2017-01-04T15:04:10.000Z
 ---
-
 If you have questions about our products and services or have something cool in mind , please use our quick form below to reach us.
 
 <br />
 
 <form method="POST" action="https://formspree.io/info@manilatech.net">
     <div class="field is-horizontal">
-        <div class="field-label is-normal">
+        <div class="field-label is-small">
             <label class="label is-uppercase">Your Name</label>
         </div>
         <div class="field-body">        
             <div class="field">
                 <div class="control">
-                    <input class="input is-medium is-shadow-0" type="text" name="name" placeholder="Please">
+                    <input class="input is-medium is-shadow-0" type="text" name="name" placeholder="Your Name, Please">
                 </div>
             </div>
         </div>
     </div>
     <div class="field is-horizontal">
-        <div class="field-label is-normal">
+        <div class="field-label is-small">
+            <label class="label is-uppercase">Your Contact No.</label>
+        </div>
+        <div class="field-body">        
+            <div class="field">
+                <div class="control">
+                    <input class="input is-medium is-shadow-0" type="text" name="contact_number" placeholder="Your Contact Number, Please">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="field is-horizontal">
+        <div class="field-label is-small">
             <label class="label is-uppercase">Your Email</label>
         </div>
         <div class="field-body">        
             <div class="field">
                 <div class="control">
-                    <input class="input is-medium is-shadow-0" type="email" name="_replyto" placeholder="your@email.com">
+                    <input class="input is-medium is-shadow-0" type="email" name="_replyto" placeholder="Your Email, Please">
                 </div>
             </div>
         </div>
     </div>
     <div class="field is-horizontal">
-        <div class="field-label is-normal">
+        <div class="field-label is-small">
             <label class="label is-uppercase">Your message</label>
         </div>
         <div class="field-body">        
