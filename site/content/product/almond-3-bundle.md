@@ -7,20 +7,20 @@ slug: almond-3-bundle
 price: "28,000.00"
 date: 2017-03-04T15:04:10.000Z
 images:
-    - image: /images/product/143998_03920e3d3cd6b8c47b51cf156e64cb3a_orig.jpg
-      thumbnail: /images/product/143998_03920e3d3cd6b8c47b51cf156e64cb3a_thumb.jpg
-    - image: /images/product/143998_b36c32bc30b9a33b1ae6cd9755b3f04b_orig.jpg
-      thumbnail: /images/product/143998_b36c32bc30b9a33b1ae6cd9755b3f04b_thumb.jpg
-    - image: /images/product/143998_b8f6e0cddc50cbf554cf9af38918d019_orig.jpg
-      thumbnail: /images/product/143998_b8f6e0cddc50cbf554cf9af38918d019_thumb.jpg
-    - image: /images/product/143998_eedb40f9b9a9de5dcf9342775507717b_orig.jpg
-      thumbnail: /images/product/143998_eedb40f9b9a9de5dcf9342775507717b_thumb.jpg
-    - image: /images/product/143998_9addd878ac9a7116c8fce4d47c4a616a_orig.png
-      thumbnail: /images/product/143998_9addd878ac9a7116c8fce4d47c4a616a_thumb.png
-    - image: /images/product/143998_a75410aa417f614eceb0e274213e6574_orig.png
-      thumbnail: /images/product/143998_a75410aa417f614eceb0e274213e6574_thumb.png
-    - image: /images/product/143998_c21eebeb96757cefce222ee54d6f99a5_orig.png
-      thumbnail: /images/product/143998_c21eebeb96757cefce222ee54d6f99a5_thumb.png
+    - image: /images/product/c_143998_03920e3d3cd6b8c47b51cf156e64cb3a_orig.jpg
+      thumbnail: /images/product/c_143998_03920e3d3cd6b8c47b51cf156e64cb3a_thumb.jpg
+    - image: /images/product/c_143998_b36c32bc30b9a33b1ae6cd9755b3f04b_orig.jpg
+      thumbnail: /images/product/c_143998_b36c32bc30b9a33b1ae6cd9755b3f04b_thumb.jpg
+    - image: /images/product/c_143998_b8f6e0cddc50cbf554cf9af38918d019_orig.jpg
+      thumbnail: /images/product/c_143998_b8f6e0cddc50cbf554cf9af38918d019_thumb.jpg
+    - image: /images/product/c_143998_eedb40f9b9a9de5dcf9342775507717b_orig.jpg
+      thumbnail: /images/product/c_143998_eedb40f9b9a9de5dcf9342775507717b_thumb.jpg
+    - image: /images/product/c_143998_9addd878ac9a7116c8fce4d47c4a616a_orig.png
+      thumbnail: /images/product/c_143998_9addd878ac9a7116c8fce4d47c4a616a_thumb.png
+    - image: /images/product/c_143998_a75410aa417f614eceb0e274213e6574_orig.png
+      thumbnail: /images/product/c_143998_a75410aa417f614eceb0e274213e6574_thumb.png
+    - image: /images/product/c_143998_c21eebeb96757cefce222ee54d6f99a5_orig.png
+      thumbnail: /images/product/c_143998_c21eebeb96757cefce222ee54d6f99a5_thumb.png
 
 ---
 ### Almond makes Wi-Fi easy.

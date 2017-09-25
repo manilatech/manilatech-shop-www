@@ -1,5 +1,5 @@
-baseURL = "/"
-#baseURL = "https://www.manilatech.net/"
+#baseURL = "/"
+baseURL = "https://www.manilatech.net/"
 languageCode = "en-us"
 languageLang = "en"
 title = "Manilatech"

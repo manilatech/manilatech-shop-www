@@ -7,18 +7,18 @@ slug: almond-3-white-solo
 price: "10,500.00"
 date: 2017-03-05T15:04:10.000Z
 images:
-    - image: /images/product/142767_06609d4738cd5f61d89de1b16764151d_orig.jpg
-      thumbnail: /images/product/142767_06609d4738cd5f61d89de1b16764151d_thumb.jpg
-    - image: /images/product/142767_8f5425ade6d02a42f8c2e117397d8659_orig.jpg
-      thumbnail: /images/product/142767_8f5425ade6d02a42f8c2e117397d8659_thumb.jpg
-    - image: /images/product/143998_eedb40f9b9a9de5dcf9342775507717b_orig.jpg
-      thumbnail: /images/product/143998_eedb40f9b9a9de5dcf9342775507717b_thumb.jpg
-    - image: /images/product/143998_9addd878ac9a7116c8fce4d47c4a616a_orig.png
-      thumbnail: /images/product/143998_9addd878ac9a7116c8fce4d47c4a616a_thumb.png
-    - image: /images/product/143998_a75410aa417f614eceb0e274213e6574_orig.png
-      thumbnail: /images/product/143998_a75410aa417f614eceb0e274213e6574_thumb.png
-    - image: /images/product/143998_c21eebeb96757cefce222ee54d6f99a5_orig.png
-      thumbnail: /images/product/143998_c21eebeb96757cefce222ee54d6f99a5_thumb.png
+    - image: /images/product/c_142767_06609d4738cd5f61d89de1b16764151d_orig.jpg
+      thumbnail: /images/product/c_142767_06609d4738cd5f61d89de1b16764151d_thumb.jpg
+    - image: /images/product/c_142767_8f5425ade6d02a42f8c2e117397d8659_orig.jpg
+      thumbnail: /images/product/c_142767_8f5425ade6d02a42f8c2e117397d8659_thumb.jpg
+    - image: /images/product/c_143998_eedb40f9b9a9de5dcf9342775507717b_orig.jpg
+      thumbnail: /images/product/c_143998_eedb40f9b9a9de5dcf9342775507717b_thumb.jpg
+    - image: /images/product/c_143998_9addd878ac9a7116c8fce4d47c4a616a_orig.png
+      thumbnail: /images/product/c_143998_9addd878ac9a7116c8fce4d47c4a616a_thumb.png
+    - image: /images/product/c_143998_a75410aa417f614eceb0e274213e6574_orig.png
+      thumbnail: /images/product/c_143998_a75410aa417f614eceb0e274213e6574_thumb.png
+    - image: /images/product/c_143998_c21eebeb96757cefce222ee54d6f99a5_orig.png
+      thumbnail: /images/product/c_143998_c21eebeb96757cefce222ee54d6f99a5_thumb.png
 
 ---
 ### Almond makes Wi-Fi easy.

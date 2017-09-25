@@ -7,10 +7,10 @@ slug: airtame
 price: "16,999.00"
 date: 2017-03-06T15:04:10.000Z
 images:
-    - image: /images/product/144139_cc278f2089f2156371345ec1554b6d70_orig.jpg
-      thumbnail: /images/product/144139_cc278f2089f2156371345ec1554b6d70_thumb.jpg
-    - image: /images/product/144139_7246289afae3ebf7e888ac4802ccfa3c_orig.jpg
-      thumbnail: /images/product/144139_7246289afae3ebf7e888ac4802ccfa3c_thumb.jpg
+    - image: /images/product/c_144139_cc278f2089f2156371345ec1554b6d70_orig.jpg
+      thumbnail: /images/product/c_144139_cc278f2089f2156371345ec1554b6d70_thumb.jpg
+    - image: /images/product/c_144139_7246289afae3ebf7e888ac4802ccfa3c_orig.jpg
+      thumbnail: /images/product/c_144139_7246289afae3ebf7e888ac4802ccfa3c_thumb.jpg
 
 ---
 ## Share your screen to a TV or projector
