@@ -1,8 +1,7 @@
 ---
 title: About Us
-slug: about-us
+url: /about-us
 date: 2017-01-04T15:04:10.000Z
-
 ---
 We are a group of individuals bound by a common passion to help others navigate the IT domain. We want to help small but very promising companies understand technology in more human, simpler terms, and see how it can steer them to growth and success.
 

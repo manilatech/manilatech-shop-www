@@ -21,9 +21,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     logo = "/images/manilatech-logo.png"
     cover = "/images/manilatech-cover.jpg"
 
-[permalinks]
-    pages = "/:slug/"
-
+[menu]
 [[menu.main]]
     name = "Home"
     weight = 1
@@ -31,8 +29,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [[menu.main]]
     name = "About Us"
     weight = 2
-    url = "/about-us/"
+    url = "/about-us"
 [[menu.main]]
     name = "Contact Us"
     weight = 3
-    url = "/contact-us/"
+    url = "/contact-us"

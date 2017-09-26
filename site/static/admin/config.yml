@@ -8,16 +8,16 @@ public_folder: "images"
 
 collections: # A list of collections the CMS should be able to edit
     - name: "pages"
-      label: "Pages"
+      label: "Page Item"
       folder: "site/content/pages"
       create: true
       fields:
         - {label: "Title",        name: "title", widget: "string"}
-        - {label: "Slug",         name: "slug",  widget: "string"}
+        - {label: "Url",          name: "url",   widget: "string"}
         - {label: "Publish Date", name: "date",  widget: "datetime"}
         - {label: "Body",         name: "body",  widget: "markdown"}
     - name: "product"
-      label: "Products"
+      label: "Product Item"
       folder: "site/content/product"
       create: true
       fields:
@@ -30,3 +30,12 @@ collections: # A list of collections the CMS should be able to edit
         - {label: "Slug",                name: "slug",           widget: "string"}
         - {label: "Price",               name: "price",          widget: "string"}
         - {label: "Publish Date",        name: "date",           widget: "datetime"}
+    - name: "carousel"
+      label: "Carousel Item"
+      files:
+        - file: "site/data/cover_carousel.yaml"
+          label: "Cover Images"
+          name: "cover_carousel"
+          fields:
+            - {label: "Auto play", name: "autoPlay", widget: "boolean"}
+            - {label: "Images",    name: "images",   widget: "list", fields: [{label: "Title", name: "title", widget: "text"},{label: "Image", name: "image", widget: "image"}]}

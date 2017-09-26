@@ -1,6 +1,6 @@
 ---
 title: Delivery Information
-slug: delivery-information
+url: /delivery-information
 date: 2017-01-04T15:04:10.000Z
 ---
 Thank you so much for visiting and shopping at Manilatech. 

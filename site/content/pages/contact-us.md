@@ -1,6 +1,6 @@
 ---
 title: "Let's talk and make something awesome together"
-slug: contact-us
+url: /contact-us
 date: 2017-01-04T15:04:10.000Z
 ---
 If you have questions about our products and services or have something cool in mind , please use our quick form below to reach us.

@@ -1,6 +1,6 @@
 ---
 title: Your privacy  and Manilatech.net
-slug: privacy-policy
+url: /privacy-policy
 date: 2017-01-04T15:04:10.000Z
 ---
 **We respect your privacy. We only collect data if you subscribe to our mailing lists.**
