@@ -57,10 +57,8 @@
     
     <section class="hero site-header-cover-carousel">
         <!--<img class="object-fit_cover is-height-100" src="{{ . | absURL }}" />-->
-        {{ range (where $.Site.Pages "Section" "carousel").ByDate }}
-            {{ if .Params.image }}
-        <div class="carousel-cell" data-flickity-bg-lazyload="{{ .Params.image }}"></div>
-            {{ end }}
+        {{ range $.Site.Data.cover_carousel.images }}
+        <div class="carousel-cell" data-flickity-bg-lazyload="{{ .image }}"></div>
         {{ end }}
     </section>
     
