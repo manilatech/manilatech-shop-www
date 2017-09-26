@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode }}">
+    {{ partial "head" . }}
+    <body class="post-template page-template">
+        {{ partial "body-header" . }}
+        <section class="section site-content">
+            <div class="container">
+                <h1 class="title is-3" style="margin-bottom:16px;">{{ .Title }}</h1>
+                <hr style="margin-top:0;margin-bottom:48px;"/>
+                <div class="columns">
+                    <div class="column">
+                        <h1 class="title is-6 is-uppercase has-text-grey-light">Pages</h1>
+                        <aside class="menu">
+                            <ul class="menu-list">
+                            {{ range (where $.Site.RegularPages "Section" "pages").ByTitle }}
+                                <li><a href="{{ .RelPermalink }}" class="is-size-5">{{ .Title }}</a></li>
+                            {{ end }}
+                            </ul>
+                        </aside>
+                    </div>
+                    <div class="column">
+                        <h1 class="title is-6 is-uppercase has-text-grey-light">Products</h1>
+                        <aside class="menu">
+                            <ul class="menu-list">
+                            {{ range (where $.Site.RegularPages "Section" "product").ByTitle }}
+                                <li><a href="{{ .RelPermalink }}" class="is-size-5">{{ .Title }}</a></li>
+                            {{ end }}
+                            </ul>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{ partial "body-footer" . }}
+    </body>
+</html>
