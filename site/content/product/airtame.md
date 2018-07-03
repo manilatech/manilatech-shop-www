@@ -4,7 +4,7 @@ short_subtitle: Share your screen to projector wirelessly
 subtitle: Enterprise grade wireless HDMI device for TVs and projectors
 cartloom_pid: 144139
 slug: airtame
-price: "16,999.00"
+price: "19,999.00"
 date: 2017-03-06T15:04:10.000Z
 images:
     - image: /images/product/c_144139_cc278f2089f2156371345ec1554b6d70_orig.jpg
@@ -26,12 +26,12 @@ Users can share content wirelessly from their laptop or mobile device to one or 
 **Why Airtame?**
 
 - Replaces screen cables
-- Everyone can easily connect to TVs/projectors from any device, great in a BYOD environments 
+- Everyone can easily connect to TVs/projectors from any device, great in a BYOD environments
 - A full mirroring experience from laptops (Mac OS, Windows and Chromebook) and the ability to present documents/images from iOS/Android devices
 - It integrates well with enterprise networks (WPA-2, user PIN code and hard-wiring option)
-- IT administrators can remotely monitor and manage devices from the Airtame cloud 
-- It’s an affordable plug & play solution 
-- Nothing needs to be plugged into the teachers/students/colleagues devices. Everything works from an app. 
+- IT administrators can remotely monitor and manage devices from the Airtame cloud
+- It’s an affordable plug & play solution
+- Nothing needs to be plugged into the teachers/students/colleagues devices. Everything works from an app.
 
 **Airtame is cross-platform**
 
