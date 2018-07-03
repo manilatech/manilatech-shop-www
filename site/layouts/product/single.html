@@ -10,7 +10,7 @@
                         <div class="post post-item">
                             <h1 class="title is-4 has-text-weight-normal">{{ .Title }}</h1>
                             <h2 class="subtitle is-6" style="color:darkgray;padding-top:4px;padding-bottom:8px">{{ .Params.subtitle }}</h2>
-                            <div class="product-carousel" 
+                            <div class="product-carousel"
                                 style="background-image: url(/images/image_1142039.gif);background-repeat:no-repeat;background-position:center center;">
                             {{ range .Params.images }}
                                 <div data-flickity-bg-lazyload="{{ .image | absURL }}" class="carousel-cell"></div>
@@ -31,7 +31,7 @@
                         </div>
                         <br />
                         <div class="has-text-centered">
-                            <a href="https://manilatech.cartloom.com/cart/add/142767" 
+                            <a href="https://manilatech.cartloom.com/cart/add/{{ .Params.cartloom_pid }}" 
                                 class="button is-success is-medium cartloom-addtocart"
                                 style="width:100%;background-color:#79A04B">Add to Cart</a>
                         </div>
